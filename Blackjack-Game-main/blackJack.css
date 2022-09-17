@@ -1,0 +1,36 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background: url("image/blackjack-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:  goldenrod;
+}
+
+#dealer-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#your-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+button{
+    color: #016f32;
+    width: 9.5rem;
+    background: goldenrod;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2px;
+    margin: 5px 0;
+}
+
+.game{
+    display: none;
+}
